@@ -1,0 +1,472 @@
+/* Estilos generales */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos del header */
+
+header div.primerBloque{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+
+header div.primerBloque nav.listas select{     
+    flex-direction: row;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #F3F3F3;
+    background: black;    
+    border: none !important;
+}
+
+header div.bloqueContacto{
+    background: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px 22px 46px;
+}
+
+header div.bloqueContacto nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header div.bloqueContacto nav ul li{
+    list-style: none;
+}
+
+header div.bloqueContacto div span.front{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #3C2313;
+}
+
+header div.bloqueContacto div span.cat{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}
+
+/* Estilos del Main */
+main {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+main section.comederos {    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+main section.comederos img{
+    display: flex;
+    z-index: -1;
+    width: 100%;  
+    align-self: center;  
+}
+
+main section.comederos div.esUnPlacer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+  }
+
+main section.comederos div.esUnPlacer h1{
+    width: 365px;
+    height: 54px;
+    left: 648px;
+    top: 237px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #3C2313;
+  }
+
+  main section.comederos div.esUnPlacer span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #3C2313;
+  }
+
+  main section.comederos div.esUnPlacer button{
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    
+    background: #F0A83E;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }  
+
+  
+main section.productos{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section.productos h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+main section.productos nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+main section.productos nav ul li{
+    list-style: none;
+}
+
+main section.productos nav ul li a{
+    color: #666666;
+}
+main article.prods {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    
+    width: 834px;
+    padding: 100px;
+}
+
+main article.prods div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main article.prods p.items{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+main article.prods p.precio{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+}
+
+main section.formulario{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+main section.formulario div.form{
+    display: flex;
+    align-content: space-between;   
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+    height: 250px;
+    padding: 5px;
+}
+
+main section.formulario div div.botones{
+    display: flex;
+    align-content:center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 240px;
+}
+
+main section.formulario div p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #3C2313;
+}
+
+main section.formulario div input{
+    width: 340px;
+    height: 40px;
+    background: #3C2313;
+    
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+main section.formulario div button.reset{
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+main section.formulario div button.enviar{
+    width: 110px;
+    height: 34px;
+    background: #F0A83E;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+main section.suscripcion {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #F0A83E;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+main section.suscripcion div.suscribete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0.03;
+}
+
+main section.suscripcion div.suscribirme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 0.05;
+}
+
+main section.suscripcion input{
+    width: 271px;
+    height: 40px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #A0A0A0;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+main section.suscripcion button{
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+/* Estilos del footer */
+
+footer section.bloqueEmpresa {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #3C2313;
+    padding: 20px;
+    height: 280px;
+    flex-grow: 1;
+}
+
+footer section.bloqueEmpresa div.contacto{
+    display: flex;
+    align-content: center;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    flex-grow: 0.05;
+}
+
+footer section.bloqueEmpresa div.contacto div.contenido{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section.bloqueEmpresa div.contacto div.contenido nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 200px;
+}
+
+footer section.bloqueEmpresa div.contacto div.img{
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;  
+    width: 66px;
+    height: 66px;
+    background: #786960;    
+    background: #8A8787;
+    border-radius: 50px;
+    border: #786960;
+    flex-grow: 0.01;    
+}
+
+footer section.bloqueEmpresa div.contacto div.img div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 63px;
+    height: 63px;
+    background: #8A8787;
+    border-radius: 50px;
+}
+
+footer section.bloqueEmpresa div.contacto img{       
+    width: 50px;
+    height: 50px;
+}
+
+footer section.bloqueEmpresa div.contacto p.text1{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;    
+    color: #FFFFFF;
+}
+
+footer section.bloqueEmpresa div.contacto p.text2{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+footer section.bloqueEmpresa div.contacto div{
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer section div.logo {
+    display: flex;
+    align-items: center;
+}
+
+footer section div.logo span.front{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+footer section div.logo span.cat{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #F0A83E;
+
+}
+
+footer div.derechos {
+    display: flex;
+    justify-content: center;
+    background: #222222;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
