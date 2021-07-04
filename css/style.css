@@ -81,12 +81,12 @@ main {
     align-content: center;
     flex-direction: column;
 }
+
 main section.comederos {    
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     align-items: center;
-
 }
 
 main section.comederos img{
@@ -469,4 +469,112 @@ footer div.derechos {
     font-size: 10px;
     line-height: 12px;
     color: #FFFFFF;
+}
+
+@media (max-width: 1250px) {
+    /* Tablets */
+    
+
+}
+
+@media (max-width: 730px){
+    /* Celulares */
+ 
+    main section.comederos{        
+        justify-content: flex-end;
+    }
+
+    main section.comederos img{
+        content: url("../img/banner2.png");
+        
+    }    
+    
+    main section.comederos div.esUnPlacer{
+        align-items: flex-end;
+        align-content: center;
+        padding-right: 20px;
+      }
+
+    main section.formulario{
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 50px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    main section.formulario div.form{
+        width: 100%;
+        flex-grow: 1;
+    }
+    
+    main section.formulario div div.botones{
+        width: 100%;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    main section.formulario div button.enviar{
+        width: 49%;
+    }
+
+    main section.formulario div button.reset{
+        width: 49%;
+    }
+    
+    main article.prods {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main section.suscripcion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        padding: 10px;
+    }
+
+    main section.suscripcion div.suscribete{
+        justify-content: space-evenly;
+        width: 65%;
+    }
+    
+    main section.suscripcion div.suscribirme{
+        justify-content: space-evenly;
+        width: 65%;
+    }
+
+    footer section.bloqueEmpresa  {
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: space-evenly;
+        height: 350px;
+    }
+    footer section.bloqueEmpresa div.contacto {
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+
+    footer section.bloqueEmpresa div.contacto div.contenido {
+        justify-content: space-between;  
+        width: 45%;
+    }
+
+    footer section.bloqueEmpresa div.contacto p.text2{
+    
+        content: "15-111-111-111";
+    }
+
+    footer section div.logo { 
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    footer div.derechos {
+        justify-content: center;
+        font-size: 20px;
+        line-height: 36px;
+    }
 }
